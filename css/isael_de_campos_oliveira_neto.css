@@ -1,0 +1,106 @@
+:root {
+    /* Paleta de cores a ser utilizada */
+    --azul: #36BA98;
+    --amarelo: #E9C46A;
+    --laranja: #F4A261;
+    --vermelho: #E76F51;
+
+    /* Cores complementares */
+    --preto: #000;
+    --branco: #fff;
+}
+
+
+/* Textos */
+.txt-verm{
+    color: var(--vermelho);
+}
+
+.txt-verm1{
+    color: var(--vermelho);
+}
+
+.txt-verm1:hover{
+    color: var(--azul);
+}
+
+.txt-la{
+    color: var(--laranja);
+}
+
+.txt-la1{
+    color: var(--laranja);
+}
+
+.txt-la1:hover{
+    color: var(--azul);
+}
+
+.txt-am{
+    color: var(--amarelo);
+}
+
+.txt-az{
+    color: var(--azul);
+}
+
+.txt-pr{
+    color:var(--preto);
+}
+
+.txt-ba{
+    color:var(--branco);
+}
+
+/* Fundos */
+.bg-verm{
+    background-color: var(--vermelho);
+}
+
+.bg-la{
+    background-color: var(--laranja);
+}
+
+.bg-am{
+    background-color: var(--amarelo);
+}
+
+.bg-az{
+    background-color: var(--azul);
+}
+
+.bg-ba{
+    background-color: var(--branco);
+}
+
+.bg-pr{
+    background-color: var(--preto);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.dec-0{
+    text-decoration: none;
+    font-style:normal;
+}
+
+.btn-verm{
+    background-color: var(--amarelo);
+}
+
+.btn-verm:hover{
+    background-color: var(--branco);
+}
+
+.btn-verm:focus{
+    background-color: var(--vermelho);
+}
+
+
+#auto{
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
